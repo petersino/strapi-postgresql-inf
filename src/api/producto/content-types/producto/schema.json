@@ -58,6 +58,12 @@
       "relation": "manyToOne",
       "target": "api::subcategoria.subcategoria",
       "inversedBy": "productos"
+    },
+    "visitas": {
+      "type": "integer",
+      "default": 0,
+      "required": true,
+      "min": 0
     }
   }
 }

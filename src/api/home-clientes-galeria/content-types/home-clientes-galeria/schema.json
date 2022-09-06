@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_clientes_galerias",
+  "info": {
+    "singularName": "home-clientes-galeria",
+    "pluralName": "home-clientes-galerias",
+    "displayName": "home clientes galeria"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "imagenes": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}
